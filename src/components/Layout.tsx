@@ -238,7 +238,7 @@ export function Layout() {
                 <Tooltip label="Follow on Twitter">
                   <ActionIcon
                     component="a"
-                    href="https://twitter.com/deiucanta"
+                    href="https://twitter.com/G42ai"
                     target="_blank"
                     sx={{ flex: 1 }}
                     size="xl"

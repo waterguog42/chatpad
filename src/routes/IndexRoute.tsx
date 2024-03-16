@@ -92,13 +92,13 @@ const features = [
     icon: IconCurrencyDollar,
     title: "Free and open source",
     description:
-      "This app is provided for free and the source code is available on GitHub.",
+      "This app is based on the open source Chatpad AI project.",
   },
   {
     icon: IconLock,
     title: "Privacy focused",
     description:
-      "No tracking, no cookies, no bullshit. All your data is stored locally.",
+      "Our service does not use cookies or tracking. Your data is stored locally on your device, ensuring your information stays private and secure.",
   },
   {
     icon: IconNorthStar,
