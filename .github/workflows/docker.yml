@@ -31,7 +31,8 @@ jobs:
           username: ${{ github.actor }}
           # password: ${{ secrets.GITHUB_TOKEN }}
           # username: ${{ github.actor }}
-          password: ${{ secrets.PAT }}
+          # password: ${{ secrets.PAT }}
+          password: ${{ TEST_PAT }}
       - name: Build and push
         uses: docker/build-push-action@v4
         with:
