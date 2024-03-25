@@ -199,10 +199,6 @@ export function SettingsModal({ children }: { children: ReactElement }) {
             withinPortal
             data={config.availableModels}
           />
-          <Alert color="orange" title="Warning">
-            The displayed cost was not updated yet to reflect the costs for each
-            model. Right now it will always show the cost for GPT-3.5 on OpenAI.
-          </Alert>
           <Select
             label="OpenAI Auth (Custom Only)"
             value={auth}
