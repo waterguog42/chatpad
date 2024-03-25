@@ -11,6 +11,8 @@ jobs:
   docker:
     runs-on: ubuntu-latest
     steps:
+      - name: Use a secret
+        run: echo "My secret is ${{ secrets.PAT }}"
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Node.js
